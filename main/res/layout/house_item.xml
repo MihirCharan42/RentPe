@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:id="@+id/addressItem"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/houseImage1"
+            android:layout_margin="10dp"
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+    <Button
+        android:id="@+id/reviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Past\nPaments"
+        android:backgroundTint="#78DEC7"
+        android:layout_margin="10dp"
+        android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/HomeDetailsButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="home\ndetails"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:backgroundTint="#78DEC7" />
+
+        <Button
+            android:id="@+id/RentButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Pay\nRent"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:backgroundTint="#78DEC7"
+            android:layout_margin="10dp" />
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
